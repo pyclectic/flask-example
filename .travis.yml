@@ -1,0 +1,18 @@
+language: python
+python:
+  - "2.6"
+  - "2.7"
+  - "3.2"
+  - "pypy"
+
+before_script:
+  - sudo apt-get install pychecker
+
+install:
+  - pip install pybuilder
+
+script: "pyb --debug"
+
+notifications:
+  email:
+  - aelgru@gmail.com
