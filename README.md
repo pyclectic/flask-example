@@ -1,6 +1,6 @@
 # Flask-Hello-World
 
-*Hello World*
+*"Hello World"*
 [flask](http://flask.pocoo.org/) web application
 using
 [pybuilder](http://pybuilder.github.com)

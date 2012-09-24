@@ -2,6 +2,7 @@ from multiprocessing import Process
 from time import sleep
 from unittest import TestCase, main
 from urllib import urlopen
+from pyassert import assert_that
 
 from helloworld import application
 
@@ -19,7 +20,7 @@ class Test (TestCase):
     def test (self):
         actual_page_content = urlopen('http://127.0.0.1:5000/').read()
         
-        self.assertEqual('Hello world.', actual_page_content)
+        assert_that(actual_page_content).is_equal_to('Hello world.')
 
 
 if __name__ == '__main__':

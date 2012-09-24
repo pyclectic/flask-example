@@ -18,7 +18,7 @@ authors = [Author('Michael Gruber', 'aelgru@gmail.com')]
 license = 'GNU GPL v3'
 summary = 'Hello world application for flask.'
 url     = 'https://github.com/aelgru/flask-hello-world'
-version = '0.0.1'
+version = '0.0.2'
 
 default_task = ['install_dependencies', 'analyze', 'publish']
 
