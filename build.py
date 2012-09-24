@@ -9,7 +9,6 @@ use_plugin('python.coverage')
 use_plugin('python.unittest')
 use_plugin('python.integrationtest')
 use_plugin('python.install_dependencies')
-use_plugin('python.distutils')
 use_plugin('python.pychecker')
 use_plugin('python.pydev')
 
@@ -18,7 +17,7 @@ authors = [Author('Michael Gruber', 'aelgru@gmail.com')]
 license = 'GNU GPL v3'
 summary = 'Hello world application for flask.'
 url     = 'https://github.com/aelgru/flask-hello-world'
-version = '0.0.2'
+version = '0.0.3'
 
 default_task = ['install_dependencies', 'analyze', 'publish']
 
@@ -33,8 +32,5 @@ def set_properties (project):
     project.set_property('coverage_break_build', True)
     project.set_property('pychecker_break_build', False)
     project.set_property('pychecker_args', ['-Q', '-b', 'unittest'])
-
-    project.get_property('distutils_commands').append('bdist_egg')
-    project.get_property('distutils_commands').append('bdist_rpm')
 
     project.get_property('filter_resources_glob').append('**/helloworld/__init__.py')
