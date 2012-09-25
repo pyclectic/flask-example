@@ -30,13 +30,13 @@ use_plugin('python.install_dependencies')
 use_plugin('python.pychecker')
 use_plugin('python.pydev')
 
-name    = 'flask-hello-world'
+name    = 'flask-example'
 authors = [Author('Michael Gruber', 'aelgru@gmail.com'),
            Author('Alexander Metzner', 'halimath.wilanthaou@gmail.com')]
 license = 'Apache License, Version 2.0'
 summary = 'Hello world application for flask.'
-url     = 'https://github.com/aelgru/flask-hello-world'
-version = '0.0.4'
+url     = 'https://github.com/pycletic/flask-example'
+version = '0.1.0'
 
 default_task = ['install_dependencies', 'analyze', 'publish']
 

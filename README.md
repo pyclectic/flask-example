@@ -1,4 +1,4 @@
-# Flask-Hello-World
+# flask example application
 
 *"Hello World"*
 [flask](http://flask.pocoo.org/) web application
@@ -10,7 +10,7 @@ and built using
 [pybuilder](http://pybuilder.github.com)
 
 Built on travis
-[![Build Status](https://secure.travis-ci.org/aelgru/flask-hello-world.png?branch=master)](http://travis-ci.org/aelgru/flask-hello-world)
+[![Build Status](https://secure.travis-ci.org/pycletic/flask-example.png?branch=master)](http://travis-ci.org/pycletic/flask-example)
 
 ## License
 
