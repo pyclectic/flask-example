@@ -1,5 +1,23 @@
+#   flask-hello-world
+#   Copyright 2012 Michael Gruber, Alexander Metzner
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
 
-import sys
+"""
+    A simple flask application tested using pyassert and pyfix and
+    built with pybuilder.
+"""
+
 from pythonbuilder.core import use_plugin, init, Author
 
 use_plugin('filter_resources')
@@ -13,11 +31,12 @@ use_plugin('python.pychecker')
 use_plugin('python.pydev')
 
 name    = 'flask-hello-world'
-authors = [Author('Michael Gruber', 'aelgru@gmail.com')]
-license = 'GNU GPL v3'
+authors = [Author('Michael Gruber', 'aelgru@gmail.com'),
+           Author('Alexander Metzner', 'halimath.wilanthaou@gmail.com')]
+license = 'Apache License, Version 2.0'
 summary = 'Hello world application for flask.'
 url     = 'https://github.com/aelgru/flask-hello-world'
-version = '0.0.3'
+version = '0.0.4'
 
 default_task = ['install_dependencies', 'analyze', 'publish']
 
