@@ -2,7 +2,7 @@ __author__ = 'Michael Gruber'
 
 from flask import Flask
 
-VERSION = '${version}'
+__version__ = '${version}'
 
 application = Flask(__name__)
 
