@@ -8,6 +8,7 @@ before_script:
   - sudo apt-get install pychecker
 
 install:
+  - pip install pyfix
   - pip install pybuilder
 
 script: "pyb --debug"
