@@ -26,6 +26,7 @@ default_task = ['install_dependencies', 'analyze', 'publish']
 def set_properties (project):
     project.build_depends_on('coverage')
     project.build_depends_on('pyassert')
+    project.build_depends_on('pyfix')
     
     project.depends_on('flask')
     
