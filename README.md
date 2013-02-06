@@ -8,6 +8,7 @@ and [pyassert](http://github.com/pyclectic/pyassert).
 
 Built using [pybuilder](http://pybuilder.github.com)
 
+Templates use [twitter bootstrap](http://twitter.github.com/bootstrap/) via [bootstrap CDN](http://bootstrapcdn.com).
 
 # How to build
 

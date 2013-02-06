@@ -14,6 +14,5 @@
 #   limitations under the License.
 
 
-
-__author__ = 'Michael Gruber'
+__author__ = 'Michael Gruber, Alexander Metzner'
 __version__ = '${version}'

@@ -15,18 +15,22 @@
 
 
 """
-    This module provides a flask application responding with
-    "Hello world" when requesting "/".
+    This module provides a flask application responding with a
+    "Hello world"-page when requesting "/".
 """
 
 __author__ = 'Michael Gruber'
 
-from flask import Flask
+from flask import Flask, render_template
+
+from helloworld.services import HelloService
 
 
 application = Flask(__name__)
+hello_service = HelloService()
 
 
 @application.route('/')
 def index():
-    return 'Hello world.'
+
+    return render_template('index.html', title=hello_service.get_title())

@@ -13,26 +13,15 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-"""
-    Unittest which asserts that the index function returns "Hello world."
 
-    There is another test which prevents you from making the mistake of
-    testing the locally installed version instead of the modified source.
-    
-    If the application has been installed the __version__ string will be
-    something like '1.2.3' instead of '${version}'.
+"""
+    Hello world service.
 """
 
-__author__ = 'Michael Gruber, Alexander Metzner'
-
-from pyfix import test
-from pyassert import assert_that
-
-from helloworld.webapp import index
+__author__ = 'Michael Gruber'
 
 
-@test
-def should_return_hello_world():
-    actual_result = index()
+class HelloService(object):
 
-    assert_that(actual_result).is_equal_to('Hello world.')
+    def get_title(self):
+        return 'Hello, world!'

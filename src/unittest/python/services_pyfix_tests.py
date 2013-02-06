@@ -18,28 +18,21 @@
 
     There is another test which prevents you from making the mistake of
     testing the locally installed version instead of the modified source.
-    
+
     If the application has been installed the __version__ string will be
     something like '1.2.3' instead of '${version}'.
 """
 
 __author__ = 'Michael Gruber, Alexander Metzner'
 
-
 from pyfix import test
 from pyassert import assert_that
 
-from helloworld import __version__
+from helloworld.services import HelloService
 
 
 @test
-def if_this_test_fails_maybe_helloworld_has_been_installed_locally():
+def hello_service_should_return_hello_world_as_greeting():
+    actual_title = HelloService().get_title()
 
-    # This test has only been created from preventing you to test a locally
-    # installed version of your application.
-    #
-    # If you installed your application using pip or setup.py into your
-    # virtual environment, your tests might run through even though you
-    # made changed. This test exists to prevent you from making this mistake.
-
-    assert_that(__version__).is_equal_to('${version}')
+    assert_that(actual_title).is_equal_to('Hello, world!')
