@@ -26,7 +26,7 @@ from pyfix import test, given, run_tests, Fixture
 from time import sleep
 from urllib import urlopen
 
-from helloworld import application
+from helloworld.webapp import application
 
 class IntegrationTestServerFixture(Fixture):
     def reclaim(self, process):

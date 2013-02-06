@@ -28,14 +28,8 @@ __author__ = 'Michael Gruber, Alexander Metzner'
 from pyfix import test
 from pyassert import assert_that
 
-from helloworld import __version__, index
+from helloworld import __version__
 
-
-@test
-def should_return_hello_world():
-    actual_result = index()
-
-    assert_that(actual_result).is_equal_to('Hello world.')
 
 @test
 def if_this_test_fails_maybe_helloworld_has_been_installed_locally():
