@@ -1,10 +1,8 @@
-# Flask Application[![Build Status](https://secure.travis-ci.org/pyclectic/flask-example.png)](http://travis-ci.org/pyclectic/flask-example)
+# Flask Example [![Build Status](https://secure.travis-ci.org/pyclectic/flask-example.png)](http://travis-ci.org/pyclectic/flask-example)
 
-This is a simple [flask](http://flask.pocoo.org/) exanple application which uses pyclectic frameworks:
-Unit and integration tests using [pyfix](http://github.com/pyclectic/pyfix)
-and [pyassert](http://github.com/pyclectic/pyassert).
-
-Built using [pybuilder](http://pybuilder.github.com)
+This is a simple [flask](http://flask.pocoo.org/) example application which uses pyclectic frameworks:
+unit and integration tests using [pyfix](http://github.com/pyclectic/pyfix)
+and [pyassert](http://github.com/pyclectic/pyassert). Built using [pybuilder](http://pybuilder.github.com)
 
 Templates use [twitter bootstrap](http://twitter.github.com/bootstrap/) via [bootstrap CDN](http://bootstrapcdn.com).
 
