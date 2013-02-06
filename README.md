@@ -1,4 +1,4 @@
-# flask example application [![Build Status](https://secure.travis-ci.org/pyclectic/flask-example.png)](http://travis-ci.org/pyclectic/flask-example)
+# Pyclectic Flask Application Example [![Build Status](https://secure.travis-ci.org/pyclectic/flask-example.png)](http://travis-ci.org/pyclectic/flask-example)
 
 *"Hello World"*
 [flask](http://flask.pocoo.org/) web application.
