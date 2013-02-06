@@ -11,6 +11,37 @@ and built using
 
 Built on travis
 [![Build Status](https://secure.travis-ci.org/pyclectic/flask-example.png)](http://travis-ci.org/pyclectic/flask-example)
-## License
+
+# How to build
+
+## Create a virtual environment
+
+```bash
+virtualen ve
+```
+
+## Activate the virtual environment
+
+```bash
+source ve/bin/activate
+```
+
+## Install pybuilder
+
+```bash
+pip install pybuilder
+```
+
+## Install dependencies
+```bash
+pyb install_dependencies
+```
+
+## Run pybuilder
+```bash
+pyb
+```
+
+# License
 
 Licensed under Apache License, Version 2.0
