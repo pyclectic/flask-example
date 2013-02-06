@@ -8,10 +8,10 @@ before_script:
   - sudo apt-get install pychecker
 
 install:
-  - pip install pyfix
   - pip install pybuilder
+  - pyb install_dependencies
 
-script: "pyb --debug"
+script: "pyb"
 
 notifications:
   email:
