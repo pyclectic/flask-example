@@ -2,13 +2,11 @@
 
 *"Hello World"*
 [flask](http://flask.pocoo.org/) web application.
-Unit tests and integration tests using
-[pyfix](http://github.com/pyclectic/pyfix)
-and
-[pyassert](http://github.com/pyclectic/pyassert).
 
-Built using
-[pybuilder](http://pybuilder.github.com)
+Unit and integration tests using [pyfix](http://github.com/pyclectic/pyfix)
+and [pyassert](http://github.com/pyclectic/pyassert).
+
+Built using [pybuilder](http://pybuilder.github.com)
 
 
 # How to build
