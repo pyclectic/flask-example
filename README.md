@@ -42,6 +42,13 @@ pyb install_dependencies
 pyb
 ```
 
+# How to run
+
+After installation you can run the application in debug mode using
+```bash
+./runserver.py
+```
+
 # License
 
 Licensed under Apache License, Version 2.0

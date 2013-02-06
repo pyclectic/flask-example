@@ -13,19 +13,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-"""
-    This module provides a flask application responding with
-    "Hello world" when requesting "/".
-"""
+
 
 __author__ = 'Michael Gruber'
-
-from flask import Flask
-
 __version__ = '${version}'
-
-application = Flask(__name__)
-
-@application.route('/')
-def index():
-    return 'Hello world.'

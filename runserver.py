@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-#   This script will start the hello world application in debug mode.
+#   This script will run the hello world application in debug mode.
 #
 #   author: Michael Gruber
 
