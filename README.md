@@ -1,6 +1,6 @@
 # Flask Example [![Build Status](https://secure.travis-ci.org/pyclectic/flask-example.png)](http://travis-ci.org/pyclectic/flask-example)
 
-This is a simple [flask](http://flask.pocoo.org/) example application which uses pyclectic frameworks:
+This is a simple [flask](http://flask.pocoo.org/) example application which demonstrates usage pyclectic frameworks:
 unit and integration tests using [pyfix](http://github.com/pyclectic/pyfix)
 and [pyassert](http://github.com/pyclectic/pyassert). Built using [pybuilder](http://pybuilder.github.com).
 
