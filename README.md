@@ -2,7 +2,7 @@
 
 This is a simple [flask](http://flask.pocoo.org/) example application which uses pyclectic frameworks:
 unit and integration tests using [pyfix](http://github.com/pyclectic/pyfix)
-and [pyassert](http://github.com/pyclectic/pyassert). Built using [pybuilder](http://pybuilder.github.com)
+and [pyassert](http://github.com/pyclectic/pyassert). Built using [pybuilder](http://pybuilder.github.com).
 
 Templates use [twitter bootstrap](http://twitter.github.com/bootstrap/) via [bootstrap CDN](http://bootstrapcdn.com).
 
@@ -47,4 +47,4 @@ After installation you can run the application in debug mode using
 
 # License
 
-Licensed under Apache License, Version 2.0
+Licensed under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
