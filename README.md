@@ -1,26 +1,27 @@
-# flask example application
+# flask example application [![Build Status](https://secure.travis-ci.org/pyclectic/flask-example.png)](http://travis-ci.org/pyclectic/flask-example)
 
 *"Hello World"*
-[flask](http://flask.pocoo.org/) web application
-tested using
+[flask](http://flask.pocoo.org/) web application.
+Unit tests and integration tests using
 [pyfix](http://github.com/pyclectic/pyfix)
 and
 [pyassert](http://github.com/pyclectic/pyassert).
-and built using
+
+Built using
 [pybuilder](http://pybuilder.github.com)
 
-Built on travis
-[![Build Status](https://secure.travis-ci.org/pyclectic/flask-example.png)](http://travis-ci.org/pyclectic/flask-example)
 
 # How to build
 
 ## Create a virtual environment
 
+Python allows to develop in [virtual environments](http://pypi.python.org/pypi/virtualenv).
+
 ```bash
 virtualen ve
 ```
 
-## Activate the virtual environment
+Activate the virtual environment
 
 ```bash
 source ve/bin/activate
@@ -32,12 +33,12 @@ source ve/bin/activate
 pip install pybuilder
 ```
 
-## Install dependencies
+ Install dependencies using pybuilder
 ```bash
 pyb install_dependencies
 ```
 
-## Run pybuilder
+Run pybuilder `pyb` to build run the unit and integration tests and build the project.
 ```bash
 pyb
 ```
