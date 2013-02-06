@@ -27,7 +27,6 @@ use_plugin('python.coverage')
 use_plugin('python.pyfix_unittest')
 use_plugin('python.integrationtest')
 use_plugin('python.install_dependencies')
-use_plugin('python.pychecker')
 use_plugin('python.pydev')
 
 name = 'flask-example'
@@ -51,7 +50,4 @@ def set_properties (project):
     project.depends_on('flask')
     
     project.set_property('coverage_break_build', True)
-    project.set_property('pychecker_break_build', False)
-    project.set_property('pychecker_args', ['-Q', '-b', 'unittest'])
-
     project.get_property('filter_resources_glob').append('**/helloworld/__init__.py')
