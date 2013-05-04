@@ -42,7 +42,7 @@ pyb
 
 After installation you can run the application in debug mode using
 ```bash
-./runserver.py
+./run_server
 ```
 
 # License
