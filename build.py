@@ -18,7 +18,7 @@
     built with pybuilder.
 """
 
-from pythonbuilder.core import use_plugin, init, Author
+from pybuilder.core import use_plugin, init, Author
 
 use_plugin('filter_resources')
 
